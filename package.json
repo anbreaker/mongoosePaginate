@@ -1,0 +1,26 @@
+{
+  "name": "mongoosePaginate",
+  "version": "1.0.0",
+  "description": "- Nodejs and Mongodb using Mongoose, an ODM of Node. In this example we will use the Mongodb plugin called mongoose-paginate-v2.",
+  "main": "index.js",
+  "scripts": {
+    "start": "fuser -k 3000/tcp & node ./src/index.js",
+    "dev": "fuser -k 3000/tcp & nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbreaker/mongoosePaginate.git"
+  },
+  "keywords": [],
+  "author": "anbreaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anbreaker/mongoosePaginate/issues"
+  },
+  "homepage": "https://github.com/anbreaker/mongoosePaginate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "mongoose-paginate-v2": "^1.3.9"
+  }
+}
